@@ -1,0 +1,14 @@
+/* Over All */
+ul.unstyled {
+    list-style:none;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6, button, a, p, textarea, text{
+    font-family:'Arial', 'Microsoft YaHei', 'Microsoft YaHei UI', '宋体', 'Simsun', 'Verdana', 'Tahoma';
+}
+
+body {
+    font-family:'Arial', 'Microsoft YaHei', 'Microsoft YaHei UI', '宋体', 'Simsun',  'Verdana', 'Tahoma';
+    color: #424242;
+}

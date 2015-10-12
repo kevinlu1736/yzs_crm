@@ -1,0 +1,160 @@
+/*crm dishes*/
+#crm_dishes .dishes {
+    width:100%;
+    height:360px;
+    border: 1px solid #ddd;
+    border-top:0px;
+
+}
+
+#crm_dishes .dish{
+    white-space:normal;
+    width:100px;
+    height:70px;
+}
+
+#crm_dishes .dish_frame {
+    display:none;
+    width:100%;
+    height:100%;
+    padding:10px;
+}
+
+#crm_dishes .pagination_frame {
+    text-align:center;
+}
+#submit_frame .pts{
+    width:60px;
+    text-align:center;
+
+}
+/*crm cart*/
+#crm_cart {
+    height:630px;
+}
+
+#crm_cart .clear_cart{
+    color:white;
+}
+
+#crm_cart .cart {
+    margin:0;
+    height:100%;
+}
+
+#crm_cart .shopping-item {
+
+}
+
+
+#crm_cart .cart_delete_item {
+    float:right;
+    display:block;
+    width:30px;
+    height:22px;
+}
+
+#crm_cart .cart_delete_item span{
+    line-height:100%;
+    font-size:19px;
+}
+
+#crm_cart .price {
+    margin-top:2px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    width:50px;
+    float:right;
+    display:inline-block;
+    position:relative;
+}
+
+#crm_cart .amount {
+    display:inline-block;
+    height:22px;
+    width:56px;
+    position:relative;
+    float:right;
+
+}
+
+#crm_cart .qty {
+    top:2px;
+    left:16px;
+    padding:0;
+    border:1px solid darkgrey;
+    display:inline-block;
+    width:24px;
+    font-size:14px;
+    height:18px;
+    line-height:18px;
+    text-align:center;
+    position:absolute;
+
+}
+
+#crm_cart .qty-minus {
+    display:inline-block;
+    margin:2px 0px;
+    padding:0;
+    height:18px;
+    text-align:center;
+    width:16px;
+    line-height:18px;
+    font-size:16px;
+    text-decoration:none;
+    color:black;
+    border:1px solid darkgrey;
+    border-right:0px;
+    float:left;
+
+}
+
+#crm_cart .qty-plus {
+    margin:2px 0px;
+    padding:0;
+    text-align:center;
+    display:inline-block;
+    height:18px;
+    width:16px;
+    line-height:18px;
+    font-size:16px;
+    text-decoration:none;
+    color:black;
+    border:1px solid darkgrey;
+    border-left:0px;
+    float:right;
+}
+
+#crm_cart .total-price {
+    margin-top:2px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    width:50px;
+    float:right;
+    display:inline-block;
+    position:relative;
+}
+
+/*Submit Part*/
+#submit_frame {
+    padding:10px;
+}
+#submit_frame .order_user_id {
+    width:250px;
+}
+
+#submit_frame .order_password {
+    width:250px;
+}
+#submit_frame .submit_order_form {
+    margin:auto;
+}
+
+#submit_frame .order_submit_btn {
+    margin:auto;
+    width:100px;
+    text-align:center;
+}

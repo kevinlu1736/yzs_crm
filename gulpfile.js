@@ -11,18 +11,151 @@ var elixir = require('laravel-elixir');
  |
  */
 
-/*elixir(function(mix) {
+elixir(function(mix) {
     mix.sass('app.scss');
-});*/
 
-mix.styles([
+    /**
+     *  for mainpage
+     */
+    mix.styles([
         'bootstrap.min.css',
-        'bootstrap-glyphicons.css',
-        'mainpage.css'
-        ], 'public/css/final/mainpage.css', 'public/css');
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'mainpage.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/mainpage.css', 'resources/assets/css');
 
-mix.scripts([
+    mix.scripts([
         'jquery-1.11.3.min.js',
         'bootstrap.min.js',
-        'mainpage.js'
-        ], 'public/js/final/mainpage.js', 'public/js');
+        'mainpage.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/mainpage.js', 'resources/assets/js');
+
+    //for register page
+    mix.styles([
+        'bootstrap.min.css',
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'auth_register.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/auth_register.css', 'resources/assets/css');
+
+    mix.scripts([
+        'jquery-1.11.3.min.js',
+        'bootstrap.min.js',
+        'auth_register.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/auth_register.js', 'resources/assets/js');
+
+
+    //for login page
+    mix.styles([
+        'bootstrap.min.css',
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'auth_login.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/auth_login.css', 'resources/assets/css');
+
+    mix.scripts([
+        'jquery-1.11.3.min.js',
+        'bootstrap.min.js',
+        'auth_login.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/auth_login.js', 'resources/assets/js');
+
+
+    //for crm/orders
+    mix.styles([
+        'bootstrap.min.css',
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'crm_orders.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/crm/crm_orders.css', 'resources/assets/css/crm');
+
+    mix.scripts([
+        'jquery-1.11.3.min.js',
+        'bootstrap.min.js',
+        'crm_orders.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/crm/crm_orders.js', 'resources/assets/js/crm');
+
+    //for crm/new_user
+    mix.styles([
+        'bootstrap.min.css',
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'crm_new_user.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/crm/crm_new_user.css', 'resources/assets/css/crm');
+
+    mix.scripts([
+        'jquery-1.11.3.min.js',
+        'bootstrap.min.js',
+        'crm_new_user.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/crm/crm_new_user.js', 'resources/assets/js/crm');
+
+    //for crm/login
+    mix.styles([
+        'bootstrap.min.css',
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'crm_login.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/crm/crm_login.css', 'resources/assets/css/crm');
+
+    mix.scripts([
+        'jquery-1.11.3.min.js',
+        'bootstrap.min.js',
+        'crm_login.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/crm/crm_login.js', 'resources/assets/js/crm');
+
+
+    //for crm/register
+    mix.styles([
+        'bootstrap.min.css',
+        'overall.css',
+        'top.css',
+        'navbar.css',
+        'crm_register.css',
+        'footer.css',
+        'select2.min.css'
+    ], 'public/css/crm/crm_register.css', 'resources/assets/css/crm');
+
+    mix.scripts([
+        'jquery-1.11.3.min.js',
+        'bootstrap.min.js',
+        'crm_register.js',
+        'modernizr-2.6.2.min.js',
+        'navbar.js',
+        'select2.min.js'
+    ], 'public/js/crm/register.js', 'resources/assets/js/crm');
+});

@@ -150,6 +150,11 @@ return [
 
         Collective\Html\HtmlServiceProvider::class,
 
+        /*
+         * Custom Service Providers
+         */
+        App\Providers\ViewComposerServiceProvider::class,
+
     ],
 
     /*

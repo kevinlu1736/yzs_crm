@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Session\Store;
+
 
 class DishesController extends Controller
 {
@@ -16,7 +18,9 @@ class DishesController extends Controller
      */
     public function index()
     {
-        return view('master');
+//        return view('layouts.master');
+//        return view('layouts.master', ['pageName'=>$this->fetchPageName($request)]);
+        return view('pages.main');
         //
     }
 
@@ -27,6 +31,7 @@ class DishesController extends Controller
      */
     public function create()
     {
+        return 'create';
         //
     }
 
@@ -85,4 +90,15 @@ class DishesController extends Controller
     {
         //
     }
+
+    /*private function fetchPageName(Request $request)
+    {
+        if($request->segment(1) != '')
+        {
+            return $request->segment(1);
+        }
+        else
+        { return 'mainpage';}
+
+    }*/
 }

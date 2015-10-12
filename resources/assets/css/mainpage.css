@@ -1,0 +1,150 @@
+
+
+
+
+/* body */
+
+/*favorite & login message*/
+
+#favorite .panel-heading {
+    background-color:red;
+    color:white;
+}
+#hotest .panel-heading {
+    background-color:red;
+    color:white;
+}
+#favorite table tr:hover {
+    cursor: pointer;
+}
+#hotest table tr:hover {
+    cursor: pointer;
+}
+#favorite table tr th {
+    cursor: default;
+}
+
+#favorite table tr td{
+    font-size:12px;
+    text-align:center;
+}
+
+#hotest table {
+    margin-top:13px;
+}
+#hotest table tr td{
+    font-size:12px;
+    text-align:center;
+}
+#favorite table tr th{
+    font-size:12px;
+    text-align:center;
+}
+
+/*searche engine*/
+#search_orders .search_small {
+    font-size:14px;
+    width:50px;
+}
+
+#search_orders .search_large {
+    font-size:14px;
+    width:100px;
+}
+/*map*/
+#map {
+    width:100%;
+    border:1px solid red;
+}
+/*shopping cart*/
+#shopping_cart {
+    width: 100%;
+    border: 1px solid red;
+}
+
+#shopping_cart .shopping-item {
+}
+
+#shopping_cart .qty {
+    top:2px;
+    left:16px;
+    padding:0;
+    border:1px solid darkgrey;
+    display:inline-block;
+    width:24px;
+    font-size:14px;
+    height:18px;
+    line-height:18px;
+    text-align:center;
+    position:absolute;
+}
+
+#shopping_cart .qty-minus {
+    display:inline-block;
+    margin:2px 0px;
+    padding:0;
+    height:18px;
+    text-align:center;
+    width:16px;
+    line-height:18px;
+    font-size:16px;
+    text-decoration:none;
+    color:black;
+    border:1px solid darkgrey;
+    border-right:0px;
+    float:left;
+}
+
+#shopping_cart .qty-plus{
+    margin:2px 0px;
+    padding:0;
+    text-align:center;
+    display:inline-block;
+    height:18px;
+    width:16px;
+    line-height:18px;
+    font-size:16px;
+    text-decoration:none;
+    color:black;
+    border:1px solid darkgrey;
+    border-left:0px;
+    float:right;
+}
+
+#shopping_cart .amount {
+    display:inline-block;
+    height:22px;
+    width:56px;
+    position:relative;
+    float:right;
+}
+#shopping_cart .price {
+    margin-top:2px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    width:50px;
+    float:right;
+    display:inline-block;
+    position:relative;
+}
+
+#shopping_cart .total-price {
+    margin-top:2px;
+    height:20px;
+    line-height:20px;
+    font-size:14px;
+    width:50px;
+    float:right;
+    display:inline-block;
+    position:relative;
+}
+
+#search_orders .submit {
+}
+#search_orders .submit button {
+    margin:auto 10px auto auto;
+    /*margin-bottom:15px;*/
+}
+
+
